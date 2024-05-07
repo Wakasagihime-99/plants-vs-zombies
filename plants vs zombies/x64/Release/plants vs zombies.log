@@ -1,0 +1,18 @@
+﻿  cardInfo.cpp
+  cards.cpp
+  characters.cpp
+  charInfo.cpp
+  gameInit.cpp
+E:\code\c\plants vs zombies\plants vs zombies\plants vs zombies\characters.cpp(137,14): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\code\c\plants vs zombies\plants vs zombies\plants vs zombies\characters.cpp(181,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  img_processing.cpp
+  main.cpp
+  moveCard.cpp
+  plantMap.cpp
+  transparrent.cpp
+  updateWindow.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 49 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  plants vs zombies.vcxproj -> E:\code\c\plants vs zombies\plants vs zombies\x64\Release\plants vs zombies.exe

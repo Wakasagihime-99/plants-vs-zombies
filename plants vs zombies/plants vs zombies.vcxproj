@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d537fe83-477d-4c18-8a50-16eb393af1e6}</ProjectGuid>
+    <RootNamespace>plantsvszombies</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cardInfo.cpp" />
+    <ClCompile Include="cards.cpp" />
+    <ClCompile Include="characters.cpp" />
+    <ClCompile Include="charInfo.cpp" />
+    <ClCompile Include="gameInit.cpp" />
+    <ClCompile Include="img_processing.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="moveCard.cpp" />
+    <ClCompile Include="plantMap.cpp" />
+    <ClCompile Include="transparrent.cpp" />
+    <ClCompile Include="updateWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cardInfo.h" />
+    <ClInclude Include="cards.h" />
+    <ClInclude Include="characters.h" />
+    <ClInclude Include="charInfo.h" />
+    <ClInclude Include="gameInit.h" />
+    <ClInclude Include="img_processing.h" />
+    <ClInclude Include="moveCard.h" />
+    <ClInclude Include="plantMap.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="transparrent.h" />
+    <ClInclude Include="updateWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="plants vs zombies.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0080.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0081.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0082.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0083.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0084.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0085.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0086.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0087.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0088.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0089.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0090.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0091.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0092.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0093.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0094.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0095.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0096.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0097.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0098.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0099.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0100.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0101.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0102.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0103.png.png" />
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0104.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0080.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0081.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0082.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0083.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0084.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0085.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0086.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0087.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0088.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0089.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0090.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0091.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0092.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0093.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0094.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0095.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0096.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0097.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0098.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0099.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0100.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0101.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0102.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0103.png.png" />
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0104.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0005.png" />
+    <Image Include="res\an\sunflower\SunFlower0006.png" />
+    <Image Include="res\an\sunflower\SunFlower0007.png" />
+    <Image Include="res\an\sunflower\SunFlower0008.png" />
+    <Image Include="res\an\sunflower\SunFlower0009.png" />
+    <Image Include="res\an\sunflower\SunFlower0010.png" />
+    <Image Include="res\an\sunflower\SunFlower0011.png" />
+    <Image Include="res\an\sunflower\SunFlower0012.png" />
+    <Image Include="res\an\sunflower\SunFlower0013.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0014.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0015.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0016.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0017.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0018.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0019.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0020.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0021.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0022.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0023.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0024.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0025.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0026.png.png" />
+    <Image Include="res\an\sunflower\SunFlower0027.png" />
+    <Image Include="res\an\sunflower\SunFlower0028.png" />
+    <Image Include="res\an\sunflower\SunFlower0029.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0005.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0006.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0007.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0008.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0009.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0010.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0011.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0012.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0013.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0014.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0015.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0016.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0017.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0018.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0019.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0020.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0021.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0022.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0023.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0024.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0025.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0026.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0027.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0028.png.png" />
+    <Image Include="res\an\sunflower_blue\SunFlower0029.png.png" />
+    <Image Include="res\background1.jpg" />
+    <Image Include="res\bar.png" />
+    <Image Include="res\cards\0.png" />
+    <Image Include="res\cards\0_L.png" />
+    <Image Include="res\cards\1.png" />
+    <Image Include="res\cards\1_L.png" />
+    <Image Include="res\cards\seeds.png" />
+    <Image Include="res\char\HouseofTerror28.png" />
+    <Image Include="res\char\_Pico129.png" />
+    <Image Include="res\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

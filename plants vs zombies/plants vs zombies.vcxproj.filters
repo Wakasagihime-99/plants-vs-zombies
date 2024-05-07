@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Initiation">
+      <UniqueIdentifier>{790f9b33-b235-48ce-b6a3-53d50f773942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Initiation">
+      <UniqueIdentifier>{c506a811-7bc8-4af3-8d53-dd0a33b84d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities">
+      <UniqueIdentifier>{5575256f-d3fe-45eb-aa49-65f2f2ef7e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utilities">
+      <UniqueIdentifier>{479a20d5-8c71-4cdc-a9ad-d574e5bd7ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\card">
+      <UniqueIdentifier>{16aa0d16-bd0b-422a-acd3-4635c22593fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\an">
+      <UniqueIdentifier>{72a5c638-3403-4205-b8ca-1aaef2c24178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\an\sunflower">
+      <UniqueIdentifier>{7108ff8c-49dc-427c-8cb8-86ee128b3999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\an\peashootersingle">
+      <UniqueIdentifier>{812fdf8c-8d51-4a6e-ad2a-ce54f2d99ea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moveCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cards.cpp">
+      <Filter>源文件\Initiation</Filter>
+    </ClCompile>
+    <ClCompile Include="cardInfo.cpp">
+      <Filter>源文件\Initiation</Filter>
+    </ClCompile>
+    <ClCompile Include="charInfo.cpp">
+      <Filter>源文件\Initiation</Filter>
+    </ClCompile>
+    <ClCompile Include="gameInit.cpp">
+      <Filter>源文件\Initiation</Filter>
+    </ClCompile>
+    <ClCompile Include="characters.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="img_processing.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="transparrent.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="updateWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plantMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="moveCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cardInfo.h">
+      <Filter>头文件\Initiation</Filter>
+    </ClInclude>
+    <ClInclude Include="cards.h">
+      <Filter>头文件\Initiation</Filter>
+    </ClInclude>
+    <ClInclude Include="charInfo.h">
+      <Filter>头文件\Initiation</Filter>
+    </ClInclude>
+    <ClInclude Include="gameInit.h">
+      <Filter>头文件\Initiation</Filter>
+    </ClInclude>
+    <ClInclude Include="characters.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="img_processing.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="transparrent.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="updateWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="plantMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="plants vs zombies.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\char\_Pico129.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\char\HouseofTerror28.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\cards\seeds.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\cards\0.png">
+      <Filter>资源文件\card</Filter>
+    </Image>
+    <Image Include="res\cards\0_L.png">
+      <Filter>资源文件\card</Filter>
+    </Image>
+    <Image Include="res\cards\1.png">
+      <Filter>资源文件\card</Filter>
+    </Image>
+    <Image Include="res\cards\1_L.png">
+      <Filter>资源文件\card</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0005.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0006.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0007.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0008.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0009.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0010.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0011.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0012.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0013.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0015.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0014.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0016.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0017.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0018.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0019.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0020.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0021.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0022.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0023.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0024.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0025.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0026.png.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0027.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0028.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\sunflower\SunFlower0029.png">
+      <Filter>资源文件\an\sunflower</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0080.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0081.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0082.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0083.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0084.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0085.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0086.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0087.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0088.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0089.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0090.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0091.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0092.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0093.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0094.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0095.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0096.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0097.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0098.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0099.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0100.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0101.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0102.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0103.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle\PeaShooterSingle0104.png.png">
+      <Filter>资源文件\an\peashootersingle</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0080.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0081.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0082.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0083.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0084.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0085.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0086.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0087.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0088.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0089.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0090.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0091.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0092.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0093.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0094.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0095.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0096.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0097.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0098.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0099.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0100.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0101.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0102.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0103.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\peashootersingle_blue\PeaShooterSingle0104.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0005.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0006.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0007.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0008.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0009.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0010.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0011.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0012.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0013.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0014.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0015.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0016.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0017.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0018.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0019.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0020.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0021.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0022.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0023.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0024.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0025.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0026.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0027.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0028.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\an\sunflower_blue\SunFlower0029.png.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
